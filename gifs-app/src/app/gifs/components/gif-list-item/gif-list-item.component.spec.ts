@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import TrendingPageComponent from './trending-page.component';
 
+import { GifListItemComponent } from './gif-list-item.component';
 
-describe('TrendingPageComponent', () => {
-  let component: TrendingPageComponent;
-  let fixture: ComponentFixture<TrendingPageComponent>;
+describe('GifListItemComponent', () => {
+  let component: GifListItemComponent;
+  let fixture: ComponentFixture<GifListItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TrendingPageComponent]
+      imports: [GifListItemComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TrendingPageComponent);
+    fixture = TestBed.createComponent(GifListItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
