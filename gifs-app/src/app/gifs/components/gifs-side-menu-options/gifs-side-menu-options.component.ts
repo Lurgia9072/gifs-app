@@ -3,7 +3,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-gifs-side-menu-options',
-  imports: [RouterLink, RouterLinkActive],
+  imports: [RouterLink],
   templateUrl: './gifs-side-menu-options.component.html',
   styleUrl: './gifs-side-menu-options.component.css'
 })
